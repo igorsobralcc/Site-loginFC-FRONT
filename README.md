@@ -7,6 +7,9 @@
 - Navegue até o projeto
 - Rode `yarn install`
 - Rode`yarn serve` para iniciar o servidor no localhost
+- Para começar a usar o aplicativo as credenciais:
+    login: `admin`
+    senha: `admin`
 
 Você também pode usar funções adiocionais como
 - `npm run build` para buildar o app para produção
