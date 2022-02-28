@@ -73,20 +73,6 @@
     },
 
     data: () => ({
-      socials: [
-        {
-          href: '#',
-          icon: 'mdi-facebook-box',
-        },
-        {
-          href: '#',
-          icon: 'mdi-twitter',
-        },
-        {
-          href: '#',
-          icon: 'mdi-github-box',
-        },
-      ],
       usuario: {
         email: '',
       },
@@ -100,9 +86,7 @@
           .then((res) => {
             console.log('RecuSWenha: ', res)
           })
-          .catch((error) => {
-            console.log('RecuSenha: ', error)
-          })
+          .catch((error) => { console.log('RecuSenha: ', error) })
       },
     },
   }

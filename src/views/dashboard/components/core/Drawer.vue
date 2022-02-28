@@ -95,38 +95,8 @@
         },
         {
           icon: 'mdi-briefcase',
-          title: 'gestor',
-          to: '/gestor',
-        },
-        {
-          icon: 'mdi mdi-account-key',
-          title: 'porteiro',
-          to: '/porteiro',
-        },
-        {
-          icon: 'mdi-account-multiple-plus',
-          title: 'coordenador',
-          to: '/coordenador',
-        },
-        {
-          icon: 'mdi-account-tie',
-          title: 'professor',
-          to: '/professor',
-        },
-        {
-          icon: 'mdi-clipboard-multiple',
-          title: 'disciplina',
-          to: '/disciplina',
-        },
-        {
-          icon: 'mdi-book-open-variant',
-          title: 'curso',
-          to: '/curso',
-        },
-        {
-          icon: 'mdi mdi-home-variant',
-          title: 'salas',
-          to: '/salas',
+          title: 'Gerente',
+          to: '/gerente',
         },
       ],
     }),

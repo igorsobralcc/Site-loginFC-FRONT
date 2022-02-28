@@ -28,13 +28,6 @@
           cols="12"
           md="auto"
         >
-          <div class="body-1 font-weight-light pt-6 pt-md-0 text-center">
-            &copy; 2020, Senac
-            <v-icon size="18">
-              mdi-heart
-            </v-icon>
-            by <a href="https://www.creative-tim.com">Time Criativo</a>
-          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -44,23 +37,6 @@
 <script>
   export default {
     name: 'DashboardCoreFooter',
-
-    data: () => ({
-      links: [
-        {
-          href: '#',
-          text: 'Equipe PW',
-        },
-        {
-          href: '#',
-          text: 'Sobre Nós',
-        },
-        {
-          href: '#',
-          text: 'Nosso Site Oficial',
-        },
-      ],
-    }),
   }
 </script>
 

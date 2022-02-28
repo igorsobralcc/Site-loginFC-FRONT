@@ -48,27 +48,6 @@
 <script>
   export default {
     name: 'PagesCoreFooter',
-
-    data: () => ({
-      links: [
-        {
-          href: '#',
-          text: 'Equipe PW',
-        },
-        {
-          href: '#',
-          text: 'Sobre Nós',
-        },
-        {
-          href: '#',
-          text: 'Site Oficial',
-        },
-        {
-          href: '#',
-          text: 'Senac',
-        },
-      ],
-    }),
   }
 </script>
 

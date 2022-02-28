@@ -51,7 +51,7 @@ export default {
 
           ls.set('token', tkHead)
 
-          router.push({ name: 'Dashboard' })
+          router.push({ name: 'Gerente' })
           console.log('vari: ', state.singInUrl)
         })
         .catch((error) => {
@@ -123,7 +123,7 @@ export default {
         permissions: JSON.parse(ls.get('permissions')),
       })
 
-      router.push('/dashboard')
+      router.push('/gerente')
     },
   },
 

@@ -82,20 +82,6 @@
     },
 
     data: () => ({
-      socials: [
-        {
-          href: '#',
-          icon: 'mdi-facebook-box',
-        },
-        {
-          href: '#',
-          icon: 'mdi-twitter',
-        },
-        {
-          href: '#',
-          icon: 'mdi-github-box',
-        },
-      ],
       usuario: {
         senha: '',
       },

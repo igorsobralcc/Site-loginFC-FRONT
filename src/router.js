@@ -65,121 +65,9 @@ export default new Router({
           },
         },
         {
-          name: 'Porteiro',
-          path: '/porteiro',
-          component: () => import('@/views/porteiro/Porteiro'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Salas',
-          path: '/salas',
-          component: () => import('@/views/salas/Salas'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Curso',
-          path: '/curso',
-          component: () => import('@/views/curso/Curso'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Coordenador',
-          path: '/coordenador',
-          component: () => import('@/views/coordenador/Coordenador'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Gestor',
-          path: '/gestor',
-          component: () => import('@/views/gestor/Gestor'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Professor',
-          path: '/professor',
-          component: () => import('@/views/professor/Professor'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Disciplina',
-          path: '/disciplina',
-          component: () => import('@/views/disciplina/Disciplina'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Turma',
-          path: '/turma/:cursoId',
-          component: () => import('@/views/turma/Turma'),
-          beforeEnter: (to, from, next) => {
-            if (store.state.authentication.idToken) {
-              const tk = store.state.authentication.idToken
-              console.log('token: ', tk)
-              next()
-            } else {
-              next('/pages/login')
-            }
-          },
-        },
-        {
-          name: 'Alocação',
-          path: '/alocacao',
-          component: () => import('@/views/alocacao/Alocacao'),
+          name: 'Gerente',
+          path: '/gerente',
+          component: () => import('@/views/gerente/Gerente'),
           beforeEnter: (to, from, next) => {
             if (store.state.authentication.idToken) {
               const tk = store.state.authentication.idToken
@@ -199,11 +87,6 @@ export default new Router({
           name: 'Calendar',
           path: 'calendar',
           component: () => import('@/views/dashboard/Calendar'),
-        },
-        {
-          name: 'Historico',
-          path: '/historico',
-          component: () => import('@/views/historico/Historico'),
         },
         {
           name: 'Validation Forms',
@@ -230,17 +113,6 @@ export default new Router({
           name: 'Data Tabels',
           path: 'tables/data-tables',
           component: () => import('@/views/dashboard/tables/DataTables'),
-        },
-        // Maps
-        {
-          name: 'Google Maps',
-          path: 'maps/google-maps',
-          component: () => import('@/views/dashboard/maps/GoogleMaps'),
-        },
-        {
-          name: 'Full Screen Map',
-          path: 'maps/full-screen-map',
-          component: () => import('@/views/dashboard/maps/FullScreenMap'),
         },
         // Root level
         {
